@@ -15,8 +15,8 @@ O projeto é formado por 4 scrips .py:
 
 * "scraper_help_requests" realiza as mesmas operações feitas por "scraper_incidents" porém, para o segundo código html retornado por "get_html_v2". O script pode ser encontrado no link abaixo:
 
-   -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/scraper_incidents.py)
+   -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/scraper_help_requests.py)
 
-* "scraper_help_requests" realiza as mesmas operações feitas por "scraper_incidents" porém, para o segundo código html retornado por "get_html_v2". O script pode ser encontrado no link abaixo:
+* "run_scraper", responsável por executar toda a opereção. Recebe os dataframes retornados pelos scripts acima e os salva em uma uma planilha excel (.xlsx) em abas distintas:
 
-   -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/scraper_incidents.py)
+   -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/run_scraper.py)
