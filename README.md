@@ -20,3 +20,7 @@ O projeto é formado por 4 scrips .py:
 * "run_scraper", responsável por executar toda a opereção. Recebe os dataframes retornados pelos scripts acima e os salva em uma uma planilha excel (.xlsx) em abas distintas:
 
    -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/run_scraper.py)
+
+Abaixo, pode ser encontrado um exemplo da planilha gerada ao final do processo:
+
+   -    (https://github.com/ArthurPatricio/Python_VG_portal_scraper/blob/main/VertiGIS_Tickets.xlsx)
