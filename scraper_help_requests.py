@@ -62,7 +62,7 @@ def scraper_help_requests():
         zip(ticket_numbers_lst, custom_id_lst, titles_lst, created_on_lst, account_lst)), 
         columns=['Number', 'Custom Ticket-ID', 'Title','Created On', 'Account'])
 
-        # Filter df_jelp_requests for Burns' tickets
+        # Filter df_help_requests for Burns' tickets
         df_help_requests = df_help_requests.query('Account == "Burns & McDonnell Engineering Company, Inc" ')
         
     return df_help_requests
